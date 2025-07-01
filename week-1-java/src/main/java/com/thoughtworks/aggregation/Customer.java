@@ -1,4 +1,4 @@
-package com.thoughtworks.inheritance;
+package com.thoughtworks.aggregation;
 
 public class Customer {
     String name;

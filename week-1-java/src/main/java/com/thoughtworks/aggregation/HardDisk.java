@@ -1,4 +1,4 @@
-package com.thoughtworks.inheritance;
+package com.thoughtworks.aggregation;
 
 public class HardDisk {
     String type;
