@@ -3,16 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.thoughtworks</groupId>
+        <artifactId>assignments</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com.thoughtworks</groupId>
-    <artifactId>assignments</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>week-1-java</module>
-        <module>week-2-java</module>
-        <module>week-3-java</module>
-    </modules>
+    <artifactId>week-3-java</artifactId>
 
     <properties>
         <maven.compiler.source>24</maven.compiler.source>
