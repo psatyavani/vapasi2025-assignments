@@ -1,4 +1,4 @@
-package com.thoughtworks.exceptions;
+package com.thoughtworks;
 
 public class MyArithmeticException extends Exception {
     public MyArithmeticException(String message) {
